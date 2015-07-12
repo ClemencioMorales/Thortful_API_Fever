@@ -5,7 +5,7 @@ Simple REST API made with Spring Boot that lets a user login and once authentica
 
 -The user can logout to finish the session.
 
--The web application is configured to run in the port 8081 and not the default one, 8081. However, 
+-The web application is configured to run in the port 8081 and not the default one, 8080. However, 
 this behaviour can be modified by updating the variable server.port=port_number in the application.properties file
 
 #Available Endpoints
