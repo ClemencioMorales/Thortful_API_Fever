@@ -16,20 +16,20 @@ this behaviour can be modified by updating the variable server.port=port_number 
 AuthenticationService.java; the user "User" with password "P4ssw0rd" and "UserOther" with "pAsswd".
 
 -Example:
-http://localhost:8081/login/User/P4ssw0rd
+*http://localhost:8081/login/User/P4ssw0rd*
 
 **http://localhost:8081/retrieveCities**
 
 -If and only if the user is logged in, retrieves a list of cities, hardcoded in the class CitiesService.java.
 
 -Example:
-http://localhost:8081/retrieveCities
+*http://localhost:8081/retrieveCities*
 
 **http://localhost:8081/logout**
 
 -Logs the user out of the web application.
 
 -Example:
-http://localhost:8081/logout
+*http://localhost:8081/logout*
 
 
